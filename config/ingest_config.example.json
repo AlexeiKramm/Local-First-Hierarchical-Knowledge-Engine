@@ -1,0 +1,17 @@
+{
+  "ingestor": {
+    "api_base": "http://localhost:8080",
+    "model": "local-model",
+    "api_key": ""
+  },
+  "analyzer": {
+    "api_base": "https://openrouter.ai/api",
+    "model": "deepseek/deepseek-v4-pro",
+    "api_key": ""
+  },
+  "diary_categories": [
+    "personal_reflection",
+    "work_and_projects",
+    "daily_logs"
+  ]
+}

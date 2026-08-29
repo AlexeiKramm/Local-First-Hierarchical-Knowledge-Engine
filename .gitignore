@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Environments & Secrets (Never commit API keys or environment configs)
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Agent & Internal Scaffolding / Working Notes
+.agents/
+.compound-engineering/
+AGENTS.md
+README_backup.md
+skills-lock.json
+docs/
+
+# Application Configuration (Private local configs ignored; example templates tracked)
+config/ingest_config.json
+!config/ingest_config.example.json
+
+# Private Databases & Personal Data (Never track raw databases, exports, or entity indexes)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite
+data/*.sqlite3
+data/*.json
+data/raw_data/**
+!data/raw_data/drop_your_raw_data_files_here.file
+data/processed/**
+data/cache/**
+data/sample_data/**
+!data/sample_data/.gitkeep
+
+# Logs & Runtime Metrics
+logs/**
+*.log
+token_usage.csv
+**/token_usage.csv
+**/session_bridge.json
+
+# Node / JS artifacts (if any)
+**/node_modules/
+**/*.lock
+**/*package-lock.json
+**/*bun.lock
